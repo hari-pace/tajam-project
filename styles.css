@@ -150,3 +150,45 @@ hr {
   color: navy;
   transition: 0.4s;
 }
+
+@media (max-width: 400px) {
+  .s4-grid-container {
+    width: 100%;
+    height: 75%;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .s5-people-container {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .s5-person {
+    min-width: 200px;
+  }
+
+  .s5-person:hover {
+    transform: none;
+  }
+
+  .s5-person-photo {
+    width: 100%;
+    min-height: 200px;
+  }
+
+  .s5-person-label {
+    margin-bottom: 6%;
+  }
+
+  .s5-join-us-p {
+    margin-top: 4%;
+    margin-bottom: 5%;
+  }
+
+  .s5-join-us-button {
+    margin-bottom: 5%;
+  }
+}
