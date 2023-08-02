@@ -1,0 +1,152 @@
+.s4-heading-container-1 {
+  text-align: center;
+  margin-top: 3%;
+  color: #403e4b;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+hr {
+  width: 3%;
+}
+
+.s4-main-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.s4-grid-container {
+  width: 55%;
+  height: 75%;
+  min-height: 500px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.s4-grid-item {
+  border: 1px solid rgb(243, 241, 241);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.5s ease;
+}
+
+.s4-grid-item:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+  background-color: white;
+}
+
+.s4-grid-content {
+  text-align: center;
+  padding: 10%;
+}
+
+.s4-grid-heading {
+  padding: 6% 0 6% 0;
+  font-weight: bold;
+  color: #403e4b;
+}
+
+.s4-grid-p {
+  color: #403e4b;
+}
+
+#s4-pen {
+  margin-top: 2.5%;
+}
+
+.s5-background {
+  margin-top: 5%;
+  background: url("./images/bgk-header.png");
+  background-size: cover;
+  width: 100%;
+  min-height: 600px;
+}
+
+.s4-heading-container-2 {
+  text-align: center;
+  padding-top: 3%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+.s5-main-container {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.s5-people-container {
+  width: 55%;
+  min-height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3%;
+}
+
+.s5-person {
+  background-color: transparent;
+  width: 20%;
+  max-width: 220px;
+  transition: 0.5s;
+}
+
+.s5-person:hover {
+  transform: translateY(-15px);
+  transition: 0.5s ease;
+}
+
+.s5-person-photo {
+  background-color: white;
+  width: 100%;
+  min-height: 200px;
+  border: 1px solid rgb(190, 190, 190);
+}
+
+.s5-person-label {
+  background-color: transparent;
+  width: 100%;
+  min-height: 70px;
+  border: 1px solid white;
+  color: white;
+  font-size: 0.85em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.s5-person-name {
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+.s5-person-job {
+  color: rgb(190, 190, 190);
+}
+
+.s5-join-us {
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+.s5-join-us-p {
+  color: white;
+  margin-bottom: 1%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.s5-join-us-button {
+  color: turquoise;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid turquoise;
+  padding: 1em;
+}
+
+.s5-join-us-button:hover {
+  background-color: white;
+  color: navy;
+  transition: 0.4s;
+}
