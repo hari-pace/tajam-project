@@ -1,0 +1,198 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+  font-size: 14px;
+  color: #403e4b;
+}
+
+.section_6 {
+  width: 100%;
+  min-height: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+}
+
+.contact_form_div {
+  min-height: 200px;
+  padding: 20px;
+  text-align: right;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #999;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+#message {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #999;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  height: 170px;
+}
+
+.submit_button {
+  background-color: white;
+  color: #61cdc4;
+  border: solid;
+  border-color: #61cdc4;
+  border-width: 2px;
+  font-weight: 700;
+  padding: 12px 20px;
+  cursor: pointer;
+  margin-right: 245px;
+}
+
+.submit_button:hover {
+  background-color: #94fff7;
+}
+
+.give {
+  font-family: Georgia;
+  margin-right: 95px;
+}
+
+.happy {
+  width: 100%;
+  font-family: Georgia;
+  text-align: right;
+}
+
+.clients_div_1 {
+  width: 25%;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.clients_div_2 {
+  width: 25%;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.clients_list_1 {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.clients_list_2 {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 60px;
+  padding-left: 20px;
+}
+
+.clients_list_1 li {
+  margin: 20px;
+}
+
+.clients_list_2 li {
+  margin: 20px 0px 20px 0px;
+}
+
+footer {
+  background-image: url(images/bgk-footer.png);
+}
+
+.section_7 {
+  width: 100%;
+  min-height: 200px;
+  padding-top: 30px;
+  display: flex;
+}
+
+.tajam {
+  width: 33.4%;
+  min-height: 200px;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-bottom: 30px;
+}
+
+.tajam_text {
+  color: #61cdc4;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.tajam_logo {
+  display: flex;
+}
+
+.our_studio {
+  width: 33.3%;
+  min-height: 200px;
+  padding: 30px;
+}
+
+h4 {
+  font-family: Open Sans;
+  color: #fafafb;
+  margin: 10px;
+}
+
+.icon_float_left {
+  float: left;
+  margin: 10px;
+}
+
+p {
+  color: #fafafb;
+  line-height: 1.8;
+}
+
+.stay_in_touch {
+  width: 33.3%;
+  min-height: 200px;
+  padding: 30px;
+}
+
+.subscribe {
+  display: flex;
+}
+
+.icon_float_phone {
+  float: left;
+  margin-right: 15px;
+}
+
+.paper_airplane_background {
+  opacity: 50%;
+}
+
+.icon_paper_airplane {
+  color: black;
+  height: 21px;
+  width: 40px;
+  margin: 6px;
+  padding: 10px;
+  background-color: white;
+}
+
+.footer_items {
+  width: 100%;
+  min-height: 50px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links {
+  color: #fafafb;
+}
+
+.copyright {
+  color: #fafafb;
+}
