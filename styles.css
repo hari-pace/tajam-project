@@ -1,3 +1,126 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.head-container {
+  background-image: url("/images1/bgk-header.png");
+  overflow: hidden;
+  height: 700px;
+  background-size: cover;
+}
+.header-logo{
+  display: flex;
+  width: 400px;
+  padding: 5px;
+}
+.header-logo img{
+  margin-top: 15px;
+  padding-right: 15px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  color: #fafafb;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+header h1 {
+  color: #61cdc4;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.header-main {
+  width: 100%;
+  display: flex;
+  margin-top: 150px;
+}
+.header-main h3{
+  color: #61cdc4;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+span {
+  color: #61cdc4;
+}
+nav li {
+  display: inline-block;
+  margin: 10px 20px;
+  font-weight: 600;
+}
+.header-content {
+  width: 45%;
+  color: #fafafb;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+  display: flex;
+  justify-content: center;
+  padding: 15px 30px;
+  background: transparent;
+  color: #61cdc4;
+  align-self: center;
+  border-color: #61cdc4;
+  margin: auto;
+  margin-top: 40px;
+}
+#story-container {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+.story-main {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  justify-content:center;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.story-content {
+  width: 50%;
+  text-align: left;
+  justify-content: center;
+  padding-left: 70px;
+}
+.story-content h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#story-container img{
+  margin-top: 40px;
+  margin-bottom: 70px
+}
+.story-content button{
+  margin-left: 0px;
+}
+#video-container{
+  overflow: hidden;
+}
+.video-main {
+  width: 75%;
+  display: flex;
+  background-image: url("/images1/bgk-middle.png");
+  padding: 235px 235px;
+  background-size: cover;
+  height: 200px;
+  overflow: hidden;
+}
+.video-content {
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+  color:#fafafb;
+  font-weight: 800;
+}
+
 .s4-heading-container-1 {
   text-align: center;
   margin-top: 3%;
@@ -191,4 +314,3 @@ hr {
   .s5-join-us-button {
     margin-bottom: 5%;
   }
-}
