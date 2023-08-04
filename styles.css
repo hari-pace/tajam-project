@@ -13,12 +13,12 @@ body {
   height: 700px;
   background-size: cover;
 }
-.header-logo{
+.header-logo {
   display: flex;
   width: 400px;
   padding: 5px;
 }
-.header-logo img{
+.header-logo img {
   margin-top: 15px;
   padding-right: 15px;
 }
@@ -40,7 +40,7 @@ header h1 {
   display: flex;
   margin-top: 150px;
 }
-.header-main h3{
+.header-main h3 {
   color: #61cdc4;
   margin-top: -20px;
   margin-bottom: 20px;
@@ -60,9 +60,14 @@ nav li {
   text-align: center;
   justify-content: center;
 }
-p{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.our-story {
+  color: black;
+}
+
 button {
   display: flex;
   justify-content: center;
@@ -83,7 +88,7 @@ button {
   width: 50%;
   margin: auto;
   text-align: left;
-  justify-content:center;
+  justify-content: center;
   display: flex;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -94,17 +99,17 @@ button {
   justify-content: center;
   padding-left: 70px;
 }
-.story-content h2{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+.story-content h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-#story-container img{
+#story-container img {
   margin-top: 40px;
-  margin-bottom: 70px
+  margin-bottom: 70px;
 }
-.story-content button{
+.story-content button {
   margin-left: 0px;
 }
-#video-container{
+#video-container {
   overflow: hidden;
 }
 .video-main {
@@ -121,7 +126,7 @@ button {
   text-align: center;
   justify-content: center;
   overflow: hidden;
-  color:#fafafb;
+  color: #fafafb;
   font-weight: 800;
 }
 
@@ -318,8 +323,9 @@ hr {
   .s5-join-us-button {
     margin-bottom: 5%;
   }
+}
 
-  .section_6 {
+.section_6 {
   width: 100%;
   min-height: 200px;
   padding-top: 30px;
@@ -416,6 +422,7 @@ input[type="text"] {
 
 footer {
   background-image: url(images-2/bgk-footer.png);
+  background-size: cover;
 }
 
 .section_7 {
