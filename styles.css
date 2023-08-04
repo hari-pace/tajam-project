@@ -103,7 +103,7 @@ input[type="text"] {
 }
 
 footer {
-  background-image: url(images/bgk-footer.png);
+  background-image: url(images-2/bgk-footer.png);
 }
 
 .section_7 {
@@ -182,17 +182,12 @@ p {
 }
 
 .footer_items {
+  color: #fafafb;
+  font-weight: 700;
+  list-style: none;
   width: 100%;
   min-height: 50px;
   padding-bottom: 30px;
   display: flex;
   justify-content: space-around;
-}
-
-.links {
-  color: #fafafb;
-}
-
-.copyright {
-  color: #fafafb;
 }
