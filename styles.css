@@ -17,6 +17,7 @@ body {
   display: flex;
   width: 400px;
   padding: 5px;
+  cursor: pointer;
 }
 .header-logo img {
   margin-top: 15px;
@@ -52,6 +53,8 @@ nav li {
   display: inline-block;
   margin: 10px 20px;
   font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
 }
 .header-content {
   width: 45%;
@@ -78,6 +81,7 @@ button {
   border-color: #61cdc4;
   margin: auto;
   margin-top: 40px;
+  cursor: pointer;
 }
 #story-container {
   width: 100%;
@@ -128,6 +132,7 @@ button {
   overflow: hidden;
   color: #fafafb;
   font-weight: 800;
+  cursor: pointer;
 }
 
 .s4-heading-container-1 {
@@ -135,6 +140,10 @@ button {
   margin-top: 3%;
   color: #403e4b;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.s4-heading-container-1 p {
+  color: #403e4b;
 }
 
 hr {
@@ -166,6 +175,7 @@ hr {
   transform: scale(1.1);
   transition: 0.5s ease;
   background-color: white;
+  cursor: pointer;
 }
 
 .s4-grid-content {
@@ -202,6 +212,10 @@ hr {
   color: white;
 }
 
+.s4-heading-container-2 p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 .s5-main-container {
   margin-top: 3%;
   display: flex;
@@ -214,6 +228,7 @@ hr {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 3%;
+  cursor: pointer;
 }
 
 .s5-person {
@@ -239,7 +254,7 @@ hr {
   background-color: transparent;
   width: 100%;
   min-height: 70px;
-  border: 1px solid white;
+  border: 1px solid rgb(190, 190, 190);
   color: white;
   font-size: 0.85em;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -365,11 +380,12 @@ input[type="text"] {
   font-weight: 700;
   padding: 12px 20px;
   cursor: pointer;
-  margin-right: 245px;
+  margin-left: 46.5%;
 }
 
 .submit_button:hover {
-  background-color: #94fff7;
+  border-color: #158178;
+  color: #158178;
 }
 
 .give {
@@ -500,13 +516,55 @@ p {
   background-color: white;
 }
 
+.paper_airplane_background:hover {
+  cursor: pointer;
+}
+
+.social_media_icons {
+  cursor: pointer;
+}
+
+.footer-items-container {
+  display: flex;
+  justify-content: center;
+}
+
 .footer_items {
   color: #fafafb;
-  font-weight: 700;
+  font-weight: 400;
   list-style: none;
-  width: 100%;
   min-height: 50px;
   padding-bottom: 30px;
+  width: 55%;
+  margin-left: 19%;
+}
+
+.footer-left {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+div ul div.footer-left li {
+  margin-left: 3%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+div ul div.footer-right li {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.section_7 {
+  width: 65%;
+}
+
+.section-7-container {
+  display: flex;
+  justify-content: center;
 }
